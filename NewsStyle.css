@@ -129,7 +129,7 @@
     width:15%;
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 #textbox3{
@@ -138,53 +138,5 @@
     font-family: 'Noto Sans', sans-serif;
     margin-left:10px;
 }
-
-
-
-#news4{
-    display: flex;
-    flex-direction: row-reverse;
-    border: solid 5px;
-    border-color: #333;
-    margin-top:10px;
-}
-
-#news4 > img{
-    height:50%;
-    width:15%;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-#textbox4{
-    display:flex;
-    flex-direction: column;
-    font-family: 'Noto Sans', sans-serif;
-    margin-left:10px;
-}
-
-
-#news5{
-    display: flex;
-    flex-direction: row;
-    border: solid 5px;
-    border-color: #333;
-    margin-top:10px;
-    margin-bottom:70px;
-}
-
-#news5 > img{
-    height:50%;
-    width:15%;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-#textbox5{
-    display:flex;
-    flex-direction: column;
-    font-family: 'Noto Sans', sans-serif;
-    margin-left:10px;
+  margin-left:10px;
 }
