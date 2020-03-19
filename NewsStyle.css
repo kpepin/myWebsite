@@ -100,7 +100,7 @@
 }
 
 #news2 > img{
-    height:50%;
+    height:25%;
     width:15%;
     margin-left: 10px;
     margin-top: 10px;
@@ -121,7 +121,7 @@
     border: solid 5px;
     border-color: #333;
     margin-top:10px;
-    margin-bottom: 50px
+    margin-bottom:100px
 }
 
 #news3 > img{
