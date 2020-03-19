@@ -117,6 +117,7 @@ a:hover {
     margin-top:50px;
     width:98%;
     height: 66%; 
+    transform: rotate(90deg)
 }
 
 #Clubs > h2{
