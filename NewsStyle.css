@@ -127,8 +127,8 @@
 #news3 > img{
     height:45%;
     width:15%;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
     margin-bottom:20px;
     transform: rotate(90deg)
 }
