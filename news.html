@@ -1,60 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="NewsStyle.css">
-    <title> News on Kevin</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kevin Pepin - Latest News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id = "top">
-        <h1>I'm Kevin Pepin</h1>
+    <div id="top">
+        <h1>Kevin Pepin</h1>
+        <p class="subtitle">Software Developer & Technology Enthusiast</p>
         <div class="topnav">
-                <div id= "content">
-                <a  href="index.html">Home</a>
+            <div id="content">
+                <a href="index.html">Home</a>
                 <a class="active" href="news.html">News</a>
-                </div>
             </div>
-        <h2>What have I been up to?</h2>
+        </div>
     </div>
 
-    <div class = "container">
-        <div class = "container" id = "news1">
-            <img src = "screenshot.png" />
-            <div id = "textbox">
-                <h2>WSJ Appearance</h2>
-                <p>I was recently featured in a Wall Street Journal article written by Lee Hawkins about remote learning at Riverdale. In light of the COVID_19 outbreaks, Riverdale closed school and shifted to a remote learning approach. The WSJ was intruiged, and had my teacher and I conduct a review of a recent test on the remote learning platform. After also being interviewed, the article was published on March 17th, 2020.
-                    </p>
-            </div> 
+    <div class="intro-section">
+        <h2>What's New</h2>
+        <p>Stay updated on my latest projects, achievements, and professional developments in the world of software development.</p>
+    </div>
+
+    <div class="content-section">
+        <div class="section-grid">
+            <div class="card">
+                <h2>🚀 New Projects in Development</h2>
+                <p>I'm currently working on several exciting new projects that will be announced soon. These initiatives focus on leveraging cutting-edge technologies to create innovative solutions for modern challenges. Each project emphasizes scalability, performance, and exceptional user experience.</p>
+                <div class="tech-stack">
+                    <span class="tech-item">Innovation</span>
+                    <span class="tech-item">Coming Soon</span>
+                    <span class="tech-item">Stay Tuned</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>💻 Technical Growth</h2>
+                <p>Continuously expanding my expertise in modern web development technologies, cloud architecture, and API design. Recent focus areas include advanced JavaScript frameworks, microservices architecture, and real-time data processing systems.</p>
+                <div class="tech-stack">
+                    <span class="tech-item">JavaScript</span>
+                    <span class="tech-item">Cloud Architecture</span>
+                    <span class="tech-item">APIs</span>
+                    <span class="tech-item">Real-time Systems</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🎯 Professional Focus</h2>
+                <p>Dedicated to building high-quality software solutions that make a real impact. My work emphasizes clean code, scalable architecture, and user-centered design. I'm particularly passionate about creating tools that empower other developers and solve complex business challenges.</p>
+                <div class="tech-stack">
+                    <span class="tech-item">Quality Code</span>
+                    <span class="tech-item">Scalability</span>
+                    <span class="tech-item">User Experience</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🌟 Community Engagement</h2>
+                <p>Actively contributing to the developer community through knowledge sharing, mentoring, and collaboration on open-source projects. I believe in the power of collective learning and the importance of giving back to the community that has supported my growth.</p>
+                <div class="tech-stack">
+                    <span class="tech-item">Open Source</span>
+                    <span class="tech-item">Mentoring</span>
+                    <span class="tech-item">Knowledge Sharing</span>
+                </div>
+            </div>
         </div>
 
-        <div class = "container" id = "news2">
-                <img src = "IMG_9889.jpg" />
-                <div id = "textbox2">
-                    <h2>Running at Feds</h2>
-                    <p>As a member of the record setting 4x200 relay team from the NYSAIS (New York State Assosciation of Independent Schools) meet, I was able to then attend the New York State Public High School Athletic Assosciation championship meet. It was an amazing experience, with a lot of invaluable experience gained from participating in a track meet of such magnitude. 
-                    </p>
-                </div> 
+        <div class="news-banner">
+            <h3>📬 Stay Connected</h3>
+            <p>Want to be the first to know about new project launches and updates? Follow me on social media or connect through GitHub to stay in the loop!</p>
         </div>
-
-        
-        <div class = "container" id = "news3">
-                <img src = "IMG_1734.jpg" />
-                <div id = "textbox3">
-                    <h2>Washington DC Trip</h2>
-                    <p>As part of Rivrdale's interdisciplinary course Constructing America, the class of 2021 took a trip to Washington DC. There, I was able to meet with representatives from the NAACP, visit the Supreme Court Library, as well as all the common landmarks. I left the experience more knowledgeable of the magnitude ofAmerica's history, as well as encouraged to make a change.</p>
-                </div> 
-        </div>
-                
     </div>
 
     <div class="footer">
-        <p>Contact Me</p>
-        <p><a href = "https://www.instagram.com/kevo.pepin">Instagram:Kevo.pepin </a> </p>
-         <p><a href="https://facebook.com/kevin.pepin790">Facebook: Kevin Pepin </a></p>
-        <p> <a href="https://github.com/KevinASC6">My Github </a> </p>
+        <div class="footer-content">
+            <h3>Let's Connect</h3>
+            <div class="social-links">
+                <a href="https://www.instagram.com/kevo.pepin">Instagram</a>
+                <a href="https://facebook.com/kevin.pepin790">Facebook</a>
+                <a href="https://github.com/KevinASC6">GitHub</a>
+                <a href="mailto:kevin@example.com">Email</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
